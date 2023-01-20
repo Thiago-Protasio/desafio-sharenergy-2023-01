@@ -1,3 +1,24 @@
+## Video: https://youtu.be/rF79VB2TLx8
+# Instruções
+
+## Instalar dependencias
+- Na pasta **web** do projeto execute o comando `npm install` ou `yarn`.
+- Na pasta **server** do projeto execute o novamente o comando `npm install` ou `yarn`.
+
+## Subir banco de dados
+Para subir o banco de dados basta seguir os passos a seguir:
+- Tenha o `Docker` instalado e rodando no background.
+- Abra o terminal na pasta **server** do projeto
+- Execute o comando `docker-compose up -d` 
+
+Pronto! Com esse comando o servidor já está preparado para receber conexões.
+
+## Rodando aplicação
+- Com o banco de dados pronto para receber conexões, no terminal da pasta **server** execute o comando `yarn dev` ou `npm run dev` para rodar o servidor.
+- Dentro do terminal da pasta **web** execute o comando `yarn start` ou `npm run start` para iniciar a aplicação.
+***
+***
+
 # Desafio para o processo seletivo SHARENERGY 2023/01
 
 Repositório destinado aos interessados em participar do processo seletivo da SHARENERGY 2023/01. As vagas são voltadas para desenvolvimento de aplicações Web e Mobile.
